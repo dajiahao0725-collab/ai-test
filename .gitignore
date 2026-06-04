@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+!.vscode/extensions.json
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# Cursor secrets (never commit API keys)
+.cursor/mcp.json
+.cursor/mcp.local.json
